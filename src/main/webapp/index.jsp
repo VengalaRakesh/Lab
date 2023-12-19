@@ -2,18 +2,26 @@
 <head>
 	<script>
 		function fun(){
-			user=document.getElementById('u').value
-			pass=document.getElementById('p').value
-			if(user=='hello' && pass="welcome"){
-				alert("Login success")
-			}
+			var n=document.getElementById("u").value;
+			var p=document.getElementById("p").value;
+			if(n=="rakesh" && p=="Welcome123")
+				{
+				 	alert("Login Success");
+			
+				}
+			else
+				{
+					alert("Invalid");
+				
+				}
 		}
 	</script>
 </head>
 <body>
-<h2>Hello World!</h2>
-Username:<input id='u'/><br/>
-Password:<input type="password" id='p'/><br/>
-<input type="submit" value="sigin" onclick="fun()"/>
+<h1>
+Username: <input id="u" /><br/>
+Password: <input type="password" id="p"/><br/><br/>
+<input type="button" value="sign in" onclick="fun()"/>
+</h1>
 </body>
 </html>
