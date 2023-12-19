@@ -4,7 +4,7 @@
 		function fun(){
 			var n=document.getElementById("u").value;
 			var p=document.getElementById("p").value;
-			if(n=="rakesh" && p=="Welcome123")
+			if(n=="rakesh" && p=="rakesh")
 				{
 				 	alert("Login Success");
 			
